@@ -28,7 +28,6 @@ export const Principal = () => {
       origin={character.origin}
       gender={character.gender}
       specie={character.species}
-      type={character.type}
       status={character.status}
       image={character.image}
     ></Character>
@@ -37,7 +36,7 @@ export const Principal = () => {
   return (
     <div>
       <Header />
-      <ul>{character.map(renderCharacters)}</ul>
+      <ul className="character-list">{character.map(renderCharacters)}</ul>
       <Footer />
     </div>
   );
