@@ -1,0 +1,26 @@
+
+
+.header-header {
+    display: grid;
+    grid-template-columns: 60px auto;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.title {
+    color:aqua;
+    text-align: center;
+}
+
+.logo {
+    height: 5rem;
+}
+
+.character-img {
+    height: 1.2rem;
+}
+
+.mb-3 {
+    padding: 1rem;
+}
+
